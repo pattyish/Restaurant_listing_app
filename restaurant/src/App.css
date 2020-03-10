@@ -1,0 +1,232 @@
+.navbar-row{
+    border-bottom: 1px solid rgb(240, 230, 230);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); 
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+.menu ul {
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    padding: 10px 14px;
+    margin-top: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.home{
+    background: url('./images/background.png');
+    margin-top: 1px;
+    background-size: cover; 
+    background-attachment: top top;
+    height: 410px;
+}
+.searchBox h1{
+    margin-top: 10px;
+    font-style: bold;
+}
+.searchBox{
+    width: 50%;
+    border-radius: 1px;
+    height: 35px;
+    background: white;
+}
+.searchDiv{
+    text-align: center;
+    margin-top: 120px;
+}
+.restaurants{
+    margin-bottom: 0%;
+    background: rgba(52, 235, 168, 0.4);
+    padding-bottom: 5%;
+}
+.restaurants-names{
+    text-align: center;
+    padding: 30px 0px;
+}
+.resto-button{
+    text-align: center;
+    padding-top: 30px;
+}
+.resto-button button{
+    background-color: #f83504;
+    color: white;
+    padding: 10px 40px;
+}
+.resto-log{
+    width: 20%;
+    padding-left: 0px;
+}
+.resto-address{
+width: 80%;
+text-align: center;
+}
+.resto-address {
+    text-align: left;
+}
+.resto-card-body{
+    display: flex;
+    justify-content: space-between;
+}
+.card .card-img-top{
+    height: 200px;
+}
+.guide-part{
+    height: 200px;
+    background-color: #f0f0f0 !important;
+}
+.sign-up-style{
+    background-color:  #f83504;
+    padding: 10px 20px;
+    color: white !important;
+}
+.Log-podzo {
+    padding: 10px 12px;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+.guide-title{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.app-part-app{
+    height: 200px;
+    background: #f83504;
+    color: white;
+    text-align: left;
+    padding-top: 20px;
+}
+#app_button{
+    background-color: white;
+    width: 40%;
+    color:#f83504;
+}
+.app-content{
+    text-align: left;
+}
+.footer-style{
+    background-color: rgb(100, 99, 99);
+}
+.footer-address{
+    color: white;
+    padding-top: 40px;
+    padding-left: 100px;
+    border-right: 2px solid black;
+}
+.footer-address h2{
+    font-weight: bold;
+    margin-left: 15%;
+}
+.footer-address ul{
+    list-style: none;
+    padding-top: 20px;
+    margin-left: 15%;
+    margin-bottom: 40px;
+}
+.footer-feedback{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-feedback textarea{
+    width: 68%;
+    padding-top: 10px;
+
+}
+.footer-feedback form{
+    margin-left: 20%
+}
+.footer-submit-button{
+    background-color: #f83504 !important;
+    color: white !important;
+    float: right;
+    margin-right: 32%;
+}
+.footerBottom-style{
+    background-color: black;
+}
+.footerBottom-style div{
+    padding-top: 15px; 
+    color:#f83504;
+}
+.footerBottom-style div span{
+    color: white;
+} 
+.footerBot-right{
+    text-align: right;
+    padding-right: 10%;
+}
+.guideLine-part{
+    margin: auto;
+}
+.guideLine-step{
+    padding: 5%;
+    padding-left: 10%;
+}
+.guideLine-step h3{
+    padding-top: 30px;
+    font-size: 2em;
+}
+.guideLine-step img{
+    width: 33%;
+    height: 130px;
+}
+.guideLine-step{
+    text-align: center;
+}
+.search-area{
+   background-color:white;
+   margin-top: 1px;
+   height: 350px;
+}
+.searchDiv-resto{
+    text-align: center;
+    margin-top: 7%;   
+}
+.founded-resto-title{
+    text-align: center;
+    padding: 5% 0px
+}
+.founded-rest{
+    padding: 20px 20px;
+}
+.restaurant-founded{
+    margin-bottom: 5%;
+}
+.founded-restaurants{
+    background: rgba(52, 235, 168, 0.4);
+}
+/* contact us style */
+.Login-submit-button{
+    background-color: #f83504 !important;
+    color: white !important;
+    width: 30%;
+}
+.Login-us-form{
+    height: 300px;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+.Login-us-style{
+    height: 140px;
+    text-align: center;
+    padding-top: 3%;
+    background: url('./images/restaurant_image.jpg');
+    color:  rgb(248, 53, 4);
+}
+.Login-us-form-div{
+    padding: 20px;
+    box-shadow: 0px 0px 1px 1px rgb(248, 53, 4, 0.2);
+    border-radius: 2px;
+}
+.login-form-title{
+    text-align: center;
+     color: rgb(248, 53, 4);
+}
+.Create-us-form{
+    height: 400px;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}

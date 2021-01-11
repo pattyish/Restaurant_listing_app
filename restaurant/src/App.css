@@ -39,7 +39,7 @@
 }
 .restaurants{
     margin-bottom: 0%;
-    background: rgba(52, 235, 168, 0.4);
+    background:#D2F0EA;
     padding-bottom: 5%;
 }
 .restaurants-names{
@@ -196,7 +196,7 @@ text-align: center;
     margin-bottom: 5%;
 }
 .founded-restaurants{
-    background: rgba(52, 235, 168, 0.4);
+    background: #D2F0EA;
 }
 /* contact us style */
 .Login-submit-button{
@@ -230,3 +230,14 @@ text-align: center;
     margin-top: 4%;
     margin-bottom: 5%;
 }
+.wrapper{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .item{
+    height: auto;
+  }
+  .owl-dots{
+    display: none;
+  }

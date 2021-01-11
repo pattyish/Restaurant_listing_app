@@ -13,7 +13,7 @@ class Login extends Component {
           <div className="col-md-6 Login-us-form-div">
             <form>
               <div className="login-form-title">
-                <h3>Create Here!!!</h3>
+                <h3>Create Account Here!!!</h3>
               </div>
               <hr style={{ padding: "5px 0px"}}/>
               <fieldset>

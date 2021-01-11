@@ -3,13 +3,16 @@ import { Link } from "react-router-dom";
 import {Cards} from "../components/card";
 class Restaurant extends Component {
   constructor(props){
-    super();
     this.state={
-      restoName: "",
-      restoAddress: "",
-      restoImage: "",
-      restoThumb: ""
+     restaurants: []
     }
+  }
+  async componentDidMount(){
+    const url = "https://api.github.com/users";
+    const response = await fetch(url)
+    const data = await response.json();
+    this.setState({ restaurants: data});
+    console.log("our users are: ", this.state.restaurants)
   }
   render() {
     return (
@@ -18,7 +21,7 @@ class Restaurant extends Component {
               <h2>Our Restaurants</h2>
           </div>
        <div className="col-md-3">
-       <Link to="specificResto"> <Cards /></Link>
+       <Link to="specificResto"> <Cards data={this.state.restaurants}/></Link>
         </div>
         <div className="col-md-3">
           <Cards />

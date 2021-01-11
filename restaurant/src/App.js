@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NavBar from "./components/NavBar";
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import "./App.css";
 import Restaurant from "./components/pages/Restaurants";
 import Contact from "./components/pages/ContactUs";
@@ -15,11 +15,13 @@ class App extends Component {
       <Router>
          <div className="container-fluid">
         <NavBar/>
+        <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/restaurants" exact component={Restaurant} />
         <Route path="/contactUs" exact component={Contact} />
         <Route path="/login" exact component={Login} />
         <Route path="/signUp" exact component={SingUp} />
+        </Switch>
         </div>
       </Router>
       

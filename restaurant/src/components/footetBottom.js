@@ -4,7 +4,7 @@ class FooterBottom extends Component {
     return (
       <div className="row footerBottom-style">
           <div className="col-md-6">
-             <span>Developer Emai :</span> patrickIshimwe16@gmail.com
+             <span>Developer Email :</span> patrickIshimwe16@gmail.com
           </div>
           <div className="col-md-6 footerBot-right">
               <p>
